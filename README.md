@@ -3,11 +3,12 @@ Work-around for running cellulose-builder in Apple silicon Mac I did
 
 
 # setting up dependency
-## VMD, NAMD, Octave, gnu-sed (!)
+### VMD, NAMD, Octave, gnu-sed (!)
 VMD and NAMD can be installed from https://www.ks.uiuc.edu. Set PATH for them.
 Octave and gnu-sed can be installed via homebrew.
 
 # modify cellulose-builder/I-beta.sh and others
+cellulose-builder can be found here <https://code.google.com/archive/p/cellulose-builder/>. Follow the instructions to install it.
 If you've got an error as following, that might be due to the differences in sed command in mac and other platform.
 ```
 sed: 1: "auxiliary_script_for_sed": command a expects \ followed by text
